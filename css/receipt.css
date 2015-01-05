@@ -1,0 +1,61 @@
+h1.receipt {
+    text-decoration: underline;
+    margin-left: 25%;
+}
+
+h2.receipt {
+    color: #FFCC33;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+table.receipt {
+    color: greenyellow;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 23px;
+    width: 94%;
+    border: 1px solid lightpink;
+    border-collapse: collapse;
+}
+
+table.receipt th {
+    text-align: left;
+    border: 1px solid lightpink;
+}
+
+table.receipt tr {
+    border: 1px solid lightpink;
+}
+
+table.receipt td {
+    border: 1px solid lightpink;
+}
+
+div.receipt {
+    border: 2px dotted black;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+button.receipt {
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    background-color: #FFCC33;
+    border: 2px solid black;
+}
+
+button.receipt:hover {
+    cursor: pointer;
+    color: #FFCC33;
+    background-color: grey;
+    border-color: #FFCC33;
+}

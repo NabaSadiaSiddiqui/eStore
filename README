@@ -1,0 +1,9 @@
+This e-store has the following features:  
+- Create new account  
+- User login  
+- Browse inventory  
+- Add a card to shopping cart  
+- Edit shopping cart content's (change item quantity, delete items)  
+- Checkout with a printable receipt  
+- Email receipt to customer  
+

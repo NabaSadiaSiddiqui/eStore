@@ -1,0 +1,99 @@
+/*
+    TOP NAVIGATION BAR
+*/
+body {
+	background-color: grey;
+	margin: 0;
+}
+
+body * {
+    font-family: 'Wellfleet', cursive;
+}
+
+header {
+	background-color: #505050;
+	height: 40px;
+	padding: 0 10%;
+}
+
+nav input {
+	font-size: 20px;
+	background-color: #FFCC33;
+	height: 100%;
+	margin: 0;
+	border: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+input[name="login"].nav {
+	background-color: #505050;
+	color: white;
+	float: right;
+}
+
+input[name="login"].nav:hover {
+	color: red;
+    cursor: pointer;
+}
+
+input[name="logout"].nav {
+    background-color: #505050;
+    color: white;
+    float: right;
+}
+
+input[name="logout"].nav:hover {
+    color: red;
+    cursor: pointer;
+}
+
+input[name="shoppingCart"].nav {
+	float: right;
+}
+
+input[name="shoppingCart"].nav:hover {
+	background-color: red;
+    cursor: pointer;
+}
+
+input[name="home"].nav:hover {
+	background-color: red;
+    cursor: pointer;
+}
+
+
+/*
+    PRODUCTS' LIST
+*/
+
+._error {
+    color:red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+span#welcomeMsg {
+    color: lawngreen;
+    font-size: 20px;
+    float: right;
+    vertical-align: -50%;
+    margin-top: 0.5%;
+    padding-right: 2%;
+    border-right: 1px solid white;
+}
+
+h2.products {
+    text-align: center;
+}
+
+table.products {
+    margin-left: 35%;
+    margin-top: 0;
+}
+
+table.products td {
+    border-top: 2px dashed silver;
+    border-bottom: 2px dashed silver;
+}

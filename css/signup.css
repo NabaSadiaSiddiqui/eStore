@@ -1,0 +1,54 @@
+form.signUp fieldset {
+    width: 39%;
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: #D0D0D0;
+    border: 1px solid goldenrod;
+}
+
+form.signUp legend {
+    color: darkslategrey;
+    background-color: silver;
+    font-weight: bold;
+    border: 1px solid goldenrod;
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+input.signUp {
+    margin-left: 10%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+input.signUp:focus {
+    outline: none;
+    border-color: goldenrod;
+    box-shadow: 0 0 10px goldenrod;
+}
+
+input[type="submit"].signUp {
+    width: 76%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    background-color: #FFCC33;
+    border: 2px solid black;
+}
+
+input[type="submit"].signUp:hover {
+    cursor: pointer;
+    color: #FFCC33;
+    background-color: grey;
+    border-color: #FFCC33;
+}
+
+p.error.signUp {
+    color: red;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+form.checkout fieldset {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: #D0D0D0;
+    border: 1px solid goldenrod;
+}
+
+form.checkout legend {
+    color: darkslategrey;
+    background-color: silver;
+    font-weight: bold;
+    border: 1px solid goldenrod;
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 2%;
+    margin-left: 10%;
+}
+
+input.checkout {
+    margin-left: 10%;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+input.checkout:focus {
+    outline: none;
+    border-color: goldenrod;
+    box-shadow: 0 0 10px goldenrod;
+}
+
+input[type="submit"].checkout {
+    width: 76%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 25px;
+    background-color: #FFCC33;
+    border: 2px solid black;
+}
+
+input[type="submit"].checkout:hover {
+    cursor: pointer;
+    color: #FFCC33;
+    background-color: grey;
+    border-color: #FFCC33;
+}
+
+p.error.checkout {
+    color: red;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+}

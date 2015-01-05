@@ -1,0 +1,45 @@
+/*
+ *  ORDER LISTING
+ */
+h2.customers {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+table.admin.customers {
+    margin-left: 5%;
+    margin-top: 1%;
+    border-collapse: collapse;
+}
+
+table.admin.customers td {
+    width: 15%;
+    font-size: 18px;
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid black;
+    padding-left: 1%;
+    word-wrap: break-word;
+}
+
+table.admin.customers td:nth-last-child(1) {
+    font-size: 15px;
+    text-align: left;
+    vertical-align: middle;
+    width: 15%;
+    border: 0;
+    line-height: 2.5;
+}
+
+table.admin.customers th {
+    text-align: left;
+    font-size: 18px;
+    border: 1px solid black;
+    padding-left: 1%;
+}
+
+table.admin.customers th:nth-last-child(1) {
+    text-align: left;
+    font-size: 18px;
+    border: 0;
+}
